@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58b3a34f-e9ff-46ed-9ac5-894a70abd03f">
+  <producedTypes>
+    <objectType typeId="cce22c56-8fa5-4b15-88e7-1dea1f315c56" valueTypeId="0be7e5db-a0c2-4f72-8eee-2e328a2107ea"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхИзЭкселя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из экселя</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="1382ae81-ee9a-4558-b4ff-37e3775bf043"/>
+  <defaultForm>ExternalDataProcessor.ЗагрузкаДанныхИзЭкселя.Form.Форма</defaultForm>
+  <attributes uuid="b9b1139e-4870-41b1-a958-e5b9a77fdd14">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="75ee8a8b-4e7d-4d37-8ee6-c04f26cbf69d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
