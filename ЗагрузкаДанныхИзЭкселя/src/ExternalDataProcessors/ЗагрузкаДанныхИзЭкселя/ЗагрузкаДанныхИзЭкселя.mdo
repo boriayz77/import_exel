@@ -24,6 +24,21 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
   </attributes>
+  <attributes uuid="bebc296d-5e55-4852-95ca-f8e538acc8a7">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>ExternalDataProcessor.ЗагрузкаДанныхИзЭкселя.Attribute.Путь</field>
+    </linkByType>
+  </attributes>
   <forms uuid="75ee8a8b-4e7d-4d37-8ee6-c04f26cbf69d">
     <name>Форма</name>
     <synonym>
@@ -33,4 +48,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="0fa93d70-0780-434e-9c51-025a22dbe51e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
 </mdclass:ExternalDataProcessor>
