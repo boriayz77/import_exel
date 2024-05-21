@@ -5,17 +5,47 @@
 		<defaultLanguage>#</defaultLanguage>
 	</languageSettings>
 	<columns>
-		<size>0</size>
+		<size>5</size>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
-			<empty>true</empty>
+			<c>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>1</defaultFormatIndex>
-	<vgRows>0</vgRows>
+	<defaultFormatIndex>3</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<fillType>Template</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yyyy; ДЛФ=DT</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<fillType>Template</fillType>
+	</format>
 	<format>
 		<width>72</width>
 	</format>

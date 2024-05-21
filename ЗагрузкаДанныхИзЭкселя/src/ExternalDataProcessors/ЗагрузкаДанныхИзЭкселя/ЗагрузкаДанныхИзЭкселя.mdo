@@ -39,6 +39,21 @@
       <field>ExternalDataProcessor.ЗагрузкаДанныхИзЭкселя.Attribute.Путь</field>
     </linkByType>
   </attributes>
+  <attributes uuid="9cd6c9ed-1ad1-4ee1-9e69-73a262eb98f4">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="75ee8a8b-4e7d-4d37-8ee6-c04f26cbf69d">
     <name>Форма</name>
     <synonym>
